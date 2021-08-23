@@ -1,1 +1,1 @@
-# -2021-electronics-DIP_for_SR_of_noisy_images
+# [2021 Electronics] Deep Image Prior for Super Resolution of Noisy Images
