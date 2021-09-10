@@ -4,6 +4,10 @@ This repository is the official implementation of [Deep Image Prior for Super Re
 
 <img src="fig/fig2.png">
 
+## Overview
+
+<img src="fig/alg.png">
+
 ## Requirements
 
 To install requirements:
@@ -21,7 +25,7 @@ Run this command:
 python train.py
 ```
 
->📋  Check training settings via [configs.py](https://github.com/sujyQ/DIPforSRofNoisyImages/blob/42b1d4d6d9ab4cfd651cc9cf2620ddb0dc5ada7b/configs.py)
+Check training settings via [configs.py](https://github.com/sujyQ/DIPforSRofNoisyImages/blob/42b1d4d6d9ab4cfd651cc9cf2620ddb0dc5ada7b/configs.py)
 
 ## Quantitative Results
 
@@ -42,9 +46,9 @@ python train.py
 ### X4, sig=25
 <img src="fig/fig6.png">
 
-## Contributing
+## Contribution
 
->📋  This code is built on [DIP](https://github.com/DmitryUlyanov/deep-image-prior). We thank the authors for sharing the code.
+This code is built on [DIP](https://github.com/DmitryUlyanov/deep-image-prior). We thank the authors for sharing the code.
 
 ## Citation
 

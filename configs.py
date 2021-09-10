@@ -7,11 +7,9 @@ def getConfigs():
     # 1. Dataset & Save Path
     #=======================  
     cfg.save_dir = 'path/to/your/result/directory'
-    cfg.save_dir = '/home/hsj/d_drive/hsj/hsj/DIP/DIP/result/test2'
     cfg.keyword = 'test'
         
     cfg.data_dir = 'path/to/your/data/directory'
-    cfg.data_dir = '/home/hsj/d_drive/hsj/hsj/DIP/DIP/data'
     cfg.dataset = 'set5'
     cfg.factor = 2
     cfg.noise_level = 25
