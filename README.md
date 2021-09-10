@@ -52,13 +52,13 @@ This code is built on [DIP](https://github.com/DmitryUlyanov/deep-image-prior). 
 
 ## Citation
 
->@article{han2021deep,
->  title={Deep Image Prior for Super Resolution of Noisy Image},
->  author={Han, Sujy and Lee, Tae Bok and Heo, Yong Seok},
->  journal={Electronics},
->  volume={10},
->  number={16},
->  pages={2014},
->  year={2021},
->  publisher={Multidisciplinary Digital Publishing Institute}
+>@article{han2021deep,  
+>  title={Deep Image Prior for Super Resolution of Noisy Image},  
+>  author={Han, Sujy and Lee, Tae Bok and Heo, Yong Seok},  
+>  journal={Electronics},  
+>  volume={10},  
+>  number={16},  
+>  pages={2014},  
+>  year={2021},  
+>  publisher={Multidisciplinary Digital Publishing Institute}  
 >}
