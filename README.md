@@ -27,6 +27,33 @@ python train.py
 
 Check training settings via [configs.py](https://github.com/sujyQ/DIPforSRofNoisyImages/blob/42b1d4d6d9ab4cfd651cc9cf2620ddb0dc5ada7b/configs.py)
 
+
+## Compared data
+Compared images are in `/data/`.
+~~~
+data
+  - set5                        : Set5 dataset
+    - clean                     : original images
+      - baby.png
+      - bird.png
+      ...
+    - x2_15                     : halved-size + noise(level=15)
+      - baby_HR_gt.png          : ground-truth image
+      - baby_bicubic.png        : upsampled via bicubic
+      - baby_clean.png          : ground-truth noise image
+      - baby_clean_shifted.png  : shifted ground-truth noise to get zero mean
+      ...
+    - x2_25   : halved-size + noise(level=25)
+    - x4_15   : quatered-size + noise(level=15)
+    - x4_25   : quatered-size + noise(level=25)
+    
+  - set14     : Set14 dataset
+    - clean   : original images
+    - x2_15   : halved-size + noise(level=15)
+    - x2_25   : halved-size + noise(level=25)
+    - x4_15   : quatered-size + noise(level=15)
+    - x4_25   : quatered-size + noise(level=25)
+~~~
 ## Quantitative Results
 
 ### PSNR | SSIM
